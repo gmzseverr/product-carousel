@@ -184,13 +184,13 @@
     productContainers.forEach((item, i) => {
       // right button event
       rightBtn[i].addEventListener("click", (event) => {
-        // console.log("Right button clicked:", event);
+        console.log("Right button clicked:", event);
         handleScroll(item, "right");
       });
 
       // left button event
       leftBtn[i].addEventListener("click", (event) => {
-        // console.log("Left button clicked:", event);
+        console.log("Left button clicked:", event);
         handleScroll(item, "left");
       });
     });
@@ -384,18 +384,33 @@ display: inline-block;
 font-weight: bold;
 }
 
-@media only screen and (max-width: 768px)  {
+@media only screen and (max-width: 991px)  {
     .product-card {
+    
 
-        width: 21rem;
+ 
     }
-    .product-information-box{
-
-    }
-
-
-
+    .carousel-box{
+       padding:5px;
+      }
+ 
 }
+@media only screen and (max-width: 400px)  {
+    .carousel-title {
+        color: #29323b;
+        font-size: 28px;
+        font-weight: lighter;
+        padding-bottom: 10px;
+        
+      }
+   
+    .carousel-box{
+       padding:0px;
+      }
+ 
+}
+
+
 
 }
     `;
