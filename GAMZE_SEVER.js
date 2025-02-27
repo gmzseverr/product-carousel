@@ -147,7 +147,7 @@
         const button = event.target.closest(".like-btn");
         const productId = button.dataset.id;
 
-        console.log("like button clicked:", event);
+        //console.log("like button clicked:", event);
         toggleFavorite(productId); // add/remove favorites
         setFavoriteState(button, productId); // update heart colo
       }
