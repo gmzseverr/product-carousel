@@ -6,7 +6,7 @@
   const FAVORITES = "favorites";
   let favoriteProducts = JSON.parse(localStorage.getItem(FAVORITES)) || [];
 
-  ///*** USEFUL FUNCTIONS  ****/
+  ///*** USEFUL FUNCTIONS  ***/
 
   // get products
   const getProducts = async () => {
