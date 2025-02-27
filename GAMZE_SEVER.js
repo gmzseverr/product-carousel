@@ -62,7 +62,7 @@
       favoriteProducts.push(productId);
       console.log(`Product ${productId} added to favorites`);
     } else {
-      // if favorited femove from favorites
+      // if favorited femove from favorites //
       favoriteProducts.splice(index, 1);
       console.log(`Product ${productId} removed from favorites`);
     }
